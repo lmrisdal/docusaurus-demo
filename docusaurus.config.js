@@ -122,6 +122,7 @@ const config = {
         hashed: true,
         indexBlog: false,
         docsRouteBasePath: "/",
+        highlightSearchTermsOnTargetPage: true
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
         // language: ["en", "zh"],

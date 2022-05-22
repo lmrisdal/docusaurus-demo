@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "ConnXio Docs",
   tagline: "Documentation is cool",
-  url: "https://lmrisdal.github.io/docusaurus-demo",
-  baseUrl: "/",
+  url: "https://lmrisdal.github.io",
+  baseUrl: "/docusaurus-demo/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "ignore",
   favicon: "img/favicon.ico",
@@ -18,15 +18,15 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "lmrisdal", // Usually your GitHub org/user name.
   projectName: "docusaurus-demo", // Usually your repo name.
-  trailingSlash: false,
+  trailingSlash: true,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
-  },
+  // i18n: {
+  //   defaultLocale: "en",
+  //   locales: ["en"],
+  // },
   presets: [
     [
       "@docusaurus/preset-classic",

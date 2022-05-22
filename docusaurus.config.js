@@ -50,6 +50,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'robots', content: 'noindex,nofollow'}],
       navbar: {
         title: "",
         logo: {

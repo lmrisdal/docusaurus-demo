@@ -1,10 +1,5 @@
 # (S)FTP Outbound adapter
 
-- [(S)FTP Outbound adapter](#sftp-outbound-adapter)
-  - [Limitations](#limitations)
-  - [Configuring Sftp connections](#configuring-sftp-connections)
-  - [Retry](#retry)
-
 ConnXio (CX) lets customers receive messages from the CX pipeline via Sftp (there are very few differences between FTP and Sftp while configuring CX, when we write Sftp we mean both FTP and Sftp unless otherwise specified). This page details limitations of the Sftp protocol and how to configure and connect to a Sftp server.
 
 ## Limitations

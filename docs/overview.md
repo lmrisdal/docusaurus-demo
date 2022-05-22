@@ -6,14 +6,6 @@ sidebar_position: 1
 
 # What is ConnXio?
 
-- [What is ConnXio?](#what-is-connxio)
-  - [Integration by Configuration](#integration-by-configuration)
-  - [Robustness](#robustness)
-  - [A tool or a platform](#a-tool-or-a-platform)
-- [Why use ConnXio?](#why-use-connxio)
-  - [Cost Saving](#cost-saving)
-  - [Soft Lock-In](#soft-lock-in)
-
 When we decided to explore the concept of an *integration by configuration* solution we used every ounce of our experience and insight into the integration challenges of our customers, our employees and the business at large to imagine a tool that could help everyone develop more robust integration-solutions faster, smarter and cheaper.  With the advent of ConnXio we've reached that goal, and we are proud to announce our solution to the world.
 
 ## Integration by Configuration

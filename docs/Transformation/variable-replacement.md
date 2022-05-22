@@ -1,18 +1,5 @@
 # Variable Replacement
 
-- [Variable Replacement](#variable-replacement)
-  - [Query language](#query-language)
-    - [Quick reference](#quick-reference)
-  - [Use cases](#use-cases)
-    - [Inbound adapters](#inbound-adapters)
-      - [REST Fetch](#rest-fetch)
-    - [Data collection](#data-collection)
-    - [Logging](#logging)
-    - [Outbound adapters](#outbound-adapters)
-      - [Azure Storage](#azure-storage)
-      - [REST Push](#rest-push)
-      - [SFTP Push](#sftp-push)
-
 At various stages through ConnXio (CX) you can use the *variable replacement* functionality to access metadata and message content to enrich everything from URL's to file names and logging options. This page details where and how to use variable replacement.
 
 ## Query language

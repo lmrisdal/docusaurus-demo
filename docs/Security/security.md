@@ -1,8 +1,5 @@
 # Security
 
-- [Security](#security)
-  - [Storing keys](#storing-keys)
-
 ConnXio (CX) handles a lot of secure parameters and information. This page details how CX handles various security issues and concerns. If you're looking for information regarding data storage and statelessness please look at the [Core Concepts](/Core-Concepts) page.
 
 ## Storing keys

@@ -1,11 +1,5 @@
 # Splitting
 
-- [Splitting](#splitting)
-  - [Limitations](#limits)
-  - [Testing and best practices](#testing-and-best-practices)
-  - [Creating splitting code components](#creating-splitting-code-components)
-  - [Retry](#retry)
-
 ConnXio (CX) gives customers the ability to split messages into smaller units. We do this by running the content through a [Code Component](/Transformation/Code-Components) that defines how the file should be split and then sends the smaller units through the pipeline as new messages. This page describes how to utilize the splitting functionality.
 
 ## Limitations

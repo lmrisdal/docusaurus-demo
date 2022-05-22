@@ -1,15 +1,5 @@
 # Rest Outbound Adapter
 
-- [Rest Outbound Adapter](#rest-outbound-adapter)
-  - [Limitations](#limitations)
-  - [Configuring Restful message delivery](#configuring-restful-message-delivery)
-  - [Extending Logging](#extending-logging)
-  - [Carousel](#carousel)
-    - [What is Carousel used for?](#what-is-carousel-used-for)
-  - [Advanced error handling](#advanced-error-handling)
-    - [Fallback](#fallback)
-    - [Retry](#retry)
-
 ConnXio (CX) lets customers receive data from the CX pipeline through a RESTful endpoint. This page details how to set up a RESTful receive adapter and the limits of using Rest to receive information from CX. When we describe something as "using Rest" or being "a Rest endpoint" we are implicitly stating that it's [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer).
 
 ## Limitations

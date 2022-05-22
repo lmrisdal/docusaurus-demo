@@ -1,12 +1,5 @@
 # Retry
 
-- [Retry](#retry)
-  - [Endpoint retry](#endpoint-retry)
-  - [Engine retry](#engine-retry)
-    - [Linear retry](#linear-retry)
-    - [Backoff retry](#backoff-retry)
-  - [Catastrophic failure retry](#catastrophic-failure-retry)
-
 CX uses multiple layers of retry to ensure the highest possible robustness. We currently use three types of retry:
 
 1. Endpoint retry

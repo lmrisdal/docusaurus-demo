@@ -1,31 +1,5 @@
 # Logging
 
-- [Logging](#logging)
-  - [What does CX log?](#what-does-cx-log)
-    - [Log-levels](#log-levels)
-      - [None](#none)
-      - [Minimum](#minimum)
-      - [Standard](#standard)
-      - [Verbose](#verbose)
-  - [Statuses](#statuses)
-  - [Contracts](#contracts)
-    - [Archeo Contract](#archeo-contract)
-  - [Internal contract](#internal-contract)
-  - [Metadata](#metadata)
-    - [Secondary content](#secondary-content)
-      - [Archeo behavior](#archeo-behavior)
-      - [Internal contract behavior](#internal-contract-behavior)
-  - [How to start logging](#how-to-start-logging)
-    - [Webhook](#webhook)
-    - [Archeo](#archeo)
-  - [External content](#external-content)
-    - [Expected API behavior](#expected-api-behavior)
-  - [To log or not to log?](#to-log-or-not-to-log)
-    - [Is the traffic low enough and the contents important enough that we should log on success?](#is-the-traffic-low-enough-and-the-contents-important-enough-that-we-should-log-on-success)
-    - [Is the message content important enough to include?](#is-the-message-content-important-enough-to-include)
-    - [What level of logging is suited for this integration?](#what-level-of-logging-is-suited-for-this-integration)
-  - [Logging outside CX](#logging-outside-cx)
-
 ConnXio (CX) lets customers use a variety of different logging options, solutions and setups. Communicate Norge offers our transaction-based logging software [Archeo](https://www.archeo.no/) as a supplement to ConnXio, and since we develop both products, the compatibility and feature richness is enhanced with this combination. However, we also support sending logs via webhook, which allows for logging to the customers logging provider of choice. This page details how to set up logging and how logging is configured.
 
 We also offer total *integration as a service* where we handle logging, support, surveillance and fault detection on behalf of our customers. Please contact our sales department at <support@communicate.no> for further information.

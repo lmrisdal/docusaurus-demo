@@ -1,11 +1,5 @@
 # Email Inbound Adapter
 
-- [Email Inbound Adapter](#email-inbound-adapter)
-  - [Limitations](#limitations)
-  - [Configuring email connections](#configuring-email-connections)
-  - [Polling interval](#polling-interval)
-  - [Retry](#retry)
-
 ConnXio (CX) lets customers provide messages to the CX pipeline by configuring connections to email accounts. We currently support POP3 and IMAP protocols. This page details limitations of email protocols and how to configure and connect to an email account.
 
 ## Limitations

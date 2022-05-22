@@ -1,12 +1,5 @@
 # Rest Inbound Adapter
 
-- [Rest Inbound Adapter](#rest-inbound-adapter)
-  - [Limitations](#limitations)
-  - [Extending Logging](#extending-logging)
-  - [Configuring Restful message intake](#configuring-restful-message-intake)
-  - [Polling interval](#polling-interval)
-  - [Retry](#retry)
-
 ConnXio (CX) lets customers provide data to the CX pipeline by providing it through a Rest endpoint. This page details how to set up a Rest fetch integration and the limits of using Api's in this way.
 
 ## Limitations

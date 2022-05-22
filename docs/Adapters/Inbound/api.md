@@ -1,19 +1,5 @@
 # The ConnXio Api
 
-- [The ConnXio Api](#the-connxio-api)
-  - [Api definition](#api-definition)
-  - [Authorization](#authorization)
-    - [OAuth](#oauth)
-    - [Basic](#basic)
-    - [Eventgrid](#eventgrid)
-  - [Enable message delivery `needs corraltionid picture`](#enable-message-delivery-needs-corraltionid-picture)
-  - [Correlation Id](#correlation-id)
-  - [Endpoints](#endpoints)
-  - [Request Example](#request-example)
-    - [/api/message](#apimessage)
-    - [/api/message/new](#apimessagenew)
-  - [Retry](#retry)
-
 The ConnXio (CX) Api is reachable through our [Api Management](https://azure.microsoft.com/en-us/services/api-management/?&ef_id=CjwKCAjwwsmLBhACEiwANq-tXF5xcD2EmPBq9wtxn2fHg1vExNIvKK1siM9sKzYFiT56qywH12O1QxoCAykQAvD_BwE:G:s&OCID=AID2200230_SEM_CjwKCAjwwsmLBhACEiwANq-tXF5xcD2EmPBq9wtxn2fHg1vExNIvKK1siM9sKzYFiT56qywH12O1QxoCAykQAvD_BwE:G:s&gclid=CjwKCAjwwsmLBhACEiwANq-tXF5xcD2EmPBq9wtxn2fHg1vExNIvKK1siM9sKzYFiT56qywH12O1QxoCAykQAvD_BwE#overview) (APIM) proxy and gives customers the ability to push messages through the CX pipeline with webhooks as well as use direct transformation endpoints that uses CX's internal logic to [map](/Transformation/Code-Components), [split](/Transformation/Splitting) or [batch](/Transformation/Batching) messages with code components within their own flows. This page describes the api including information and resources needed to use it.
 
 ## Api definition

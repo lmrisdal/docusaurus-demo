@@ -1,15 +1,5 @@
 # Service Bus Outbound Adapter
 
-- [Service Bus Outbound Adapter](#service-bus-outbound-adapter)
-  - [Limitations](#limitations)
-  - [Message transfer pattern](#message-transfer-pattern)
-    - [Metadata on Bus, data as blob](#metadata-on-bus-data-as-blob)
-      - [SasUri Only](#sasuri-only)
-      - [Deafult contract](#deafult-contract)
-    - [Pure Message Sending](#pure-message-sending)
-  - [Configuring Service Bus message delivery](#configuring-service-bus-message-delivery)
-  - [Retry](#retry)
-
 ConnXio (CX) lets customers receive data from the CX pipeline by enqueueing it onto [Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview). This page details how to create an integration which sends messages to Azure Service Bus.
 
 ## Limitations

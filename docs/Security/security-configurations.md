@@ -1,17 +1,5 @@
 # Security Configurations
 
-- [Security Configurations](#security-configurations)
-  - [Creating a Security Configuration](#creating-a-security-configuration)
-    - [Webhook](#webhook)
-      - [Choosing your authentication scheme](#choosing-your-authentication-scheme)
-        - [OAuth 2.0](#oauth-20)
-        - [Basic](#basic)
-        - [Header or custom](#header-or-custom)
-    - [Archeo](#archeo)
-    - [Sftp](#sftp)
-    - [Ftp](#ftp)
-    - [Connection String](#connection-string)
-
 A security configuration is basically just a convenient way to store adapter and logging credentials. This gives customers the ability to securely store credentials and reuse them on multiple integrations. This page describes how to create a *security configuration*.
 
 ## Creating a Security Configuration

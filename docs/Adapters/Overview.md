@@ -5,10 +5,6 @@
 
 # Adapters
 
-- [Adapters](#adapters)
-  - [Retry](#retry)
-  - [Acknowledgment events](#acknowledgment-events)
-
 We use the word "Adapters" to describe the components that start or complete an integration flow by interfacing with systems outside of ConnXio (CX) through various protocols. Subsequently we put adapters into two categories; *inbound* and *outbound*.
 
 **Inbound adapters** reach out to other systems over their configured protocol, search for files to pick up and then use parallel processing to pick up said files and upload them to the internal engines to start processing them. Inbound adapters give customers a plethora of settings to configure based on their protocol and the behavior described within the scope of that protocol. For example you might be able to configure security, pick rates, parallel processing thresholds, duplicate detection, etc.\

@@ -1,11 +1,5 @@
 # Event Grid Adapter
 
-- [Event Grid Adapter](#event-grid-adapter)
-  - [Limitations](#limitations)
-  - [Configuring Event Grid message intake](#configuring-event-grid-message-intake)
-  - [Configuring Event Grid endpoints in Azure `needs picture of correlationid`](#configuring-event-grid-endpoints-in-azure-needs-picture-of-correlationid)
-  - [Retry](#retry)
-
 ConnXio (CX) lets customers provide messages to the CX pipeline by leveraging [Azure Event Grid](https://docs.microsoft.com/en-us/azure/event-grid/overview). This page details how to configure Event Grid in CX but does not describe how to set up or configure Event Grid itself, please refer to the [Microsoft documentation](https://docs.microsoft.com/en-us/azure/event-grid/blob-event-quickstart-portal) for more information about Event Grid.
 
 ## Limitations

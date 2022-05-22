@@ -1,8 +1,5 @@
 # Format Conversion
 
-- [Format Conversion](#format-conversion)
-  - [Setting up a conversion](#setting-up-a-conversion)
-
 ConnXio (CX) supports quick conversion between XML and JSON, we call this feature *format conversion*. This is a simple way to transform message content to and from pre determined formats in an easy to configure way. We are looking into adding more formats, please contact us if you have suggestions.
 
 ## Setting up a conversion

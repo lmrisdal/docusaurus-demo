@@ -1,15 +1,5 @@
 # Service Bus Inbound Adapter
 
-- [Service Bus Inbound Adapter](#service-bus-inbound-adapter)
-  - [Limitations](#limitations)
-  - [Message transfer pattern](#message-transfer-pattern)
-    - [Metadata on Bus, data as blob](#metadata-on-bus-data-as-blob)
-    - [Pure Message Sending](#pure-message-sending)
-      - [InterchangeId](#interchangeid)
-  - [Configuring Service Bus message intake](#configuring-service-bus-message-intake)
-  - [Polling interval](#polling-interval)
-  - [Retry](#retry)
-
 ConnXio (CX) lets customers provide data to the CX pipeline by enqueueing it onto [Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview). This page details how to create an integration which pick up messages from Azure Service Bus.
 
 ## Limitations

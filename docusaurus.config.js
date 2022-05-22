@@ -57,15 +57,14 @@ const config = {
           src: "img/connxio-logo.svg",
         },
         items: [
-          // {
-          //   type: "doc",
-          //   docId: "intro",
-          //   position: "left",
-          //   label: "Documentation",
-          // },
           {
             href: "https://portal.connxio.no",
             label: "ConnXio Portal",
+            position: "left",
+          },
+          {
+            href: "https://www.communicate.no/en/connxio",
+            label: "About ConnXio",
             position: "left",
           },
           {
